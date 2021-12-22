@@ -1,5 +1,10 @@
 package com.company;
 
+/**
+ UC1
+ Ability to find frequency of words in a sentence like “To be or not to be”
+ * */
+
 public class HashTableMain {
     public static void main(String[] args) {
 
