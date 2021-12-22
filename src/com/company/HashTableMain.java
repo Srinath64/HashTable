@@ -1,8 +1,9 @@
 package com.company;
 
 /**
- UC1
- Ability to find frequency of words in a sentence like “To be or not to be”
+ UC2
+ Ability to find frequency of words in a large paragraph phrase “Paranoids are not paranoid because they are paranoid but
+ because they keep putting themselves deliberately into paranoid avoidable situations”
  * */
 
 public class HashTableMain {
@@ -10,7 +11,8 @@ public class HashTableMain {
 
         Hashtable<String , Integer> hash = new Hashtable();
 
-        String message = "To be or not to be";
+        String message = "Paranoids are not paranoid because they are paranoid but " +
+                "because they keep putting themselves deliberately into paranoid avoidable situations";
 
 
         String[] messageArray = message.toLowerCase().split(" ");
