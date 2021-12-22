@@ -1,9 +1,9 @@
 package com.company;
 
 /**
- UC2
- Ability to find frequency of words in a large paragraph phrase “Paranoids are not paranoid because they are paranoid but
- because they keep putting themselves deliberately into paranoid avoidable situations”
+ UC3
+ Remove avoidable word from the phrase “Paranoids are not paranoid because they are paranoid but because they keep
+ putting themselves deliberately into paranoid avoidable situations”
  * */
 
 public class HashTableMain {
@@ -27,6 +27,8 @@ public class HashTableMain {
                 value = value + 1;
             hash.add(word , value);
         }
+        System.out.println(hash);
+        hash.remove("avoidable");
         System.out.println(hash);
     }
 }
