@@ -10,7 +10,7 @@ public class HashTableMain {
 
         Hashtable<String , Integer> hash = new Hashtable();
 
-        String message = "To be or not to be";
+        String message = " To be or not to be ";
 
 
         String[] messageArray = message.toLowerCase().split(" ");
