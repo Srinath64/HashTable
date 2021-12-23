@@ -93,7 +93,7 @@ class Hashtable<K, V> {
             previousNode.next = currentNode.next;
         }
         if(currentNode == null)
-            System.out.println("Word not found!");
+            System.out.println(" Word not found! ");
     }
 
 
