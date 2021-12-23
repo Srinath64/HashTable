@@ -11,8 +11,8 @@ public class HashTableMain {
 
         Hashtable<String , Integer> hash = new Hashtable();
 
-        String message = "Paranoids are not paranoid because they are paranoid but " +
-                "because they keep putting themselves deliberately into paranoid avoidable situations";
+        String message = " Paranoids are not paranoid because they are paranoid but " +
+                "because they keep putting themselves deliberately into paranoid avoidable situations ";
 
 
         String[] messageArray = message.toLowerCase().split(" ");

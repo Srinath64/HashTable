@@ -73,7 +73,7 @@ class Hashtable<K, V> {
     private int getBucketIndex(K word) {
         int hashCode = Math.abs(word.hashCode());
         int index = hashCode % numOfBuckets;
-        System.out.println("Key: "+word+" hashcode: "+hashCode+" index: "+index);
+        System.out.println( "Key: "+word+" hashcode: "+hashCode+" index: "+index );
         return index;
     }
 
